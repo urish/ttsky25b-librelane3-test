@@ -18,6 +18,7 @@ jobs:
         with:
           pdk: sky130
           tools-ref: main
+          librelane-version: 3.0.0.dev38
 
   precheck:
     needs: gds
