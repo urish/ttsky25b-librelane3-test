@@ -1,5 +1,5 @@
 /*
- * tt_um_factory_test.v
+ * tt_um_librelane3_test.v
  *
  * Test user module
  *
@@ -8,7 +8,7 @@
 
 `default_nettype none
 
-module tt_um_factory_test (
+module tt_um_librelane3_test (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
@@ -37,4 +37,4 @@ module tt_um_factory_test (
   // avoid linter warning about unused pins:
   wire _unused_pins = ena;
 
-endmodule  // tt_um_factory_test
+endmodule  // tt_um_librelane3_test
